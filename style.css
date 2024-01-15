@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    background: rgb(213, 205, 205);
+}
+.main{
+    width: 100%;
+    height: 700px;
+    background: #ddd;
+    padding: 30px;
+    display: flex;
+}
+
+
+.wrapper1{
+    width: 70%;
+    height: 500px;
+    
+    margin: 20px;
+}
+.choose{
+    width: 95%;
+    height: 40px;
+    border-bottom: 1px solid grey;
+    margin: auto;
+    display: flex;
+}
+.wr__choose{
+    width: 50%;
+    height: 100%;
+   
+    align-items: center;
+  
+
+}
+.wr__choose2{
+    width: 50%;
+    height: 100%;
+   
+    text-align: right;
+}
+.tools{
+    width: 95%;
+    height: 100px;
+    border-bottom: 1px solid grey;
+    margin: auto;
+    display: flex;
+}
+.photo{
+    width: 10%;
+    height: 100%;
+    
+    display: flex;
+   
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    padding-left: 5px;
+
+}
+
+
+
+.wr__maint{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.main__text{
+    width: 90%;
+    height: 50%;
+   
+    font-size: 14px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper2{
+    width: 25%;
+    height: 240px;
+   
+    border-radius: 20px;
+}
+.total{
+    width: 100%;
+    height: 60%;
+  
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid grey;
+    
+}
+.money{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.btn{
+    width: 100%;
+    padding: 10px 25px;
+    background: orange;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+.installment{
+    width: 100%;
+    height: 40%;
+   
+    border-radius: 20px;
+    margin-top: 5px;
+    padding-top: 15px;
+    border: 1px solid grey;
+}
+.wr__install{
+    width: 80%;
+    height: 20px;
+    background: #cdcaca;
+    margin: auto;
+    border-radius: 20px;
+   
+}
+.btn1{
+    width: 90%;
+    padding:15px 25px;
+    border: none;
+    background: black;
+    color: #fff;
+    border-radius: 12px;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.text{
+    font-size: 14px;
+    text-align: center;
+    color: rgb(48, 46, 46);
+}
+.main__amount{
+    width: 35%;
+    height: 100%;
+   
+}
+.wr__amount{
+    width: 80%;
+    height: 30px;
+    
+    margin: 25px auto;
+    display: flex;
+    gap: 60px;
+  
+}
+.amount{
+    width: 30%;
+    height: 20px;
+    background: #ddd;
+    border-radius: 12px;
+
+}
+.amount p{
+    text-align: center;
+}
